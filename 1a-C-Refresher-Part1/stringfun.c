@@ -6,6 +6,7 @@
 
 #define SPACE_CHAR ' '
 
+//hi
 //prototypes for functions to handle required functionality
 
 // TODO: #1 What is the purpose of providing prototypes for
