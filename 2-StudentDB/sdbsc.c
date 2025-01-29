@@ -28,7 +28,7 @@ int open_db(char *dbFile, bool should_truncate){
 
     //open the file if it exists for Read and Write, 
     //create it if it does not exist
-    int    flags = O_RDWR | O_CREAT;
+    int flags = O_RDWR | O_CREAT;
 
     if (should_truncate) 
         flags += O_TRUNC;

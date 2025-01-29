@@ -1,5 +1,5 @@
 #ifndef __DB_H__
-    #define __DB_H__
+#define __DB_H__
 
 // Basic student database record.  Note:
 //  1. id must be > 0.  A student id==0 means the record has been deleted
