@@ -2,16 +2,17 @@
 triple:          'arm64-apple-darwin'
 binary-path:     '/Users/sydneyzheng/Drexel/cs283/2-StudentDB/sdbsc'
 relocations:
-  - { offset: 0x26, size: 0x8, addend: 0x0, symName: _open_db, symObjAddr: 0x0, symBinAddr: 0x100003514, symSize: 0xB0 }
-  - { offset: 0x41, size: 0x8, addend: 0x0, symName: _open_db, symObjAddr: 0x0, symBinAddr: 0x100003514, symSize: 0xB0 }
-  - { offset: 0xA1, size: 0x8, addend: 0x0, symName: _get_student, symObjAddr: 0xB0, symBinAddr: 0x1000035C4, symSize: 0x1C }
-  - { offset: 0xE5, size: 0x8, addend: 0x0, symName: _add_student, symObjAddr: 0xCC, symBinAddr: 0x1000035E0, symSize: 0x3C }
-  - { offset: 0x145, size: 0x8, addend: 0x0, symName: _del_student, symObjAddr: 0x108, symBinAddr: 0x10000361C, symSize: 0x30 }
-  - { offset: 0x17B, size: 0x8, addend: 0x0, symName: _count_db_records, symObjAddr: 0x138, symBinAddr: 0x10000364C, symSize: 0x2C }
-  - { offset: 0x1A3, size: 0x8, addend: 0x0, symName: _print_db, symObjAddr: 0x164, symBinAddr: 0x100003678, symSize: 0x2C }
-  - { offset: 0x1CB, size: 0x8, addend: 0x0, symName: _print_student, symObjAddr: 0x190, symBinAddr: 0x1000036A4, symSize: 0x28 }
-  - { offset: 0x1EF, size: 0x8, addend: 0x0, symName: _compress_db, symObjAddr: 0x1B8, symBinAddr: 0x1000036CC, symSize: 0x2C }
-  - { offset: 0x219, size: 0x8, addend: 0x0, symName: _validate_range, symObjAddr: 0x1E4, symBinAddr: 0x1000036F8, symSize: 0x90 }
-  - { offset: 0x252, size: 0x8, addend: 0x0, symName: _usage, symObjAddr: 0x274, symBinAddr: 0x100003788, symSize: 0x94 }
-  - { offset: 0x278, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x308, symBinAddr: 0x10000381C, symSize: 0x438 }
+  - { offset: 0x26, size: 0x8, addend: 0x0, symName: _open_db, symObjAddr: 0x0, symBinAddr: 0x100002AA8, symSize: 0xB0 }
+  - { offset: 0x7D, size: 0x8, addend: 0x0, symName: _EMPTY_STUDENT_RECORD, symObjAddr: 0x13EC, symBinAddr: 0x100003B18, symSize: 0x0 }
+  - { offset: 0xCF, size: 0x8, addend: 0x0, symName: _open_db, symObjAddr: 0x0, symBinAddr: 0x100002AA8, symSize: 0xB0 }
+  - { offset: 0x12F, size: 0x8, addend: 0x0, symName: _get_student, symObjAddr: 0xB0, symBinAddr: 0x100002B58, symSize: 0xF0 }
+  - { offset: 0x18F, size: 0x8, addend: 0x0, symName: _add_student, symObjAddr: 0x1A0, symBinAddr: 0x100002C48, symSize: 0x264 }
+  - { offset: 0x23A, size: 0x8, addend: 0x0, symName: _del_student, symObjAddr: 0x404, symBinAddr: 0x100002EAC, symSize: 0x1BC }
+  - { offset: 0x2AB, size: 0x8, addend: 0x0, symName: _count_db_records, symObjAddr: 0x5C0, symBinAddr: 0x100003068, symSize: 0x150 }
+  - { offset: 0x2FD, size: 0x8, addend: 0x0, symName: _print_db, symObjAddr: 0x710, symBinAddr: 0x1000031B8, symSize: 0x1D0 }
+  - { offset: 0x373, size: 0x8, addend: 0x0, symName: _print_student, symObjAddr: 0x8E0, symBinAddr: 0x100003388, symSize: 0x108 }
+  - { offset: 0x3A8, size: 0x8, addend: 0x0, symName: _compress_db, symObjAddr: 0x9E8, symBinAddr: 0x100003490, symSize: 0x2C }
+  - { offset: 0x3D2, size: 0x8, addend: 0x0, symName: _validate_range, symObjAddr: 0xA14, symBinAddr: 0x1000034BC, symSize: 0x90 }
+  - { offset: 0x40B, size: 0x8, addend: 0x0, symName: _usage, symObjAddr: 0xAA4, symBinAddr: 0x10000354C, symSize: 0x94 }
+  - { offset: 0x431, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0xB38, symBinAddr: 0x1000035E0, symSize: 0x438 }
 ...

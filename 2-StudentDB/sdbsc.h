@@ -2,7 +2,6 @@
 
 #include "db.h" //get student record type 
 
-// comment
 //prototypes for functions go below for this assignment
 int open_db(char *dbFile, bool should_truncate);
 int add_student(int fd, int id, char *fname, char *lname, int gpa);
