@@ -625,4 +625,12 @@ int main(int argc, char *argv[]){
             exit_code = EXIT_OK;
             break;
         default:
-            usage(argv[0]
+            usage(argv[0]);
+            exit_code = EXIT_FAIL_ARGS;
+    }
+
+    //dont forget to close the file before exiting, and setting the 
+    //proper exit code - see the header file for expected values
+    close(fd);
+    exit(exit_code);
+}
