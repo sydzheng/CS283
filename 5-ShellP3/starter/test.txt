@@ -1,0 +1,11 @@
+apple
+banana
+cat
+dog
+elephant
+zebra 
+apple
+king
+queen
+banana
+cat

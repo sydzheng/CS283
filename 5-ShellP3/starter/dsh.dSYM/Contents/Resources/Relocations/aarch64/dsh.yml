@@ -1,0 +1,16 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     dsh
+relocations:
+  - { offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100002EC0, symSize: 0x40 }
+  - { offset: 0x41, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100002EC0, symSize: 0x40 }
+  - { offset: 0x96, size: 0x8, addend: 0x0, symName: _exec_local_cmd_loop, symObjAddr: 0x0, symBinAddr: 0x100002F00, symSize: 0x274 }
+  - { offset: 0xED, size: 0x8, addend: 0x0, symName: _exec_local_cmd_loop, symObjAddr: 0x0, symBinAddr: 0x100002F00, symSize: 0x274 }
+  - { offset: 0x131, size: 0x8, addend: 0x0, symName: _free_cmd_list, symObjAddr: 0x274, symBinAddr: 0x100003174, symSize: 0x98 }
+  - { offset: 0x178, size: 0x8, addend: 0x0, symName: _build_cmd_list, symObjAddr: 0x30C, symBinAddr: 0x10000320C, symSize: 0x21C }
+  - { offset: 0x202, size: 0x8, addend: 0x0, symName: _exec_built_in_cmd, symObjAddr: 0x528, symBinAddr: 0x100003428, symSize: 0x80 }
+  - { offset: 0x22C, size: 0x8, addend: 0x0, symName: _exec_cmd, symObjAddr: 0x5A8, symBinAddr: 0x1000034A8, symSize: 0xB8 }
+  - { offset: 0x274, size: 0x8, addend: 0x0, symName: _execute_pipeline, symObjAddr: 0x660, symBinAddr: 0x100003560, symSize: 0x3DC }
+  - { offset: 0x377, size: 0x8, addend: 0x0, symName: _build_cmd_buff, symObjAddr: 0xA3C, symBinAddr: 0x10000393C, symSize: 0x3BC }
+  - { offset: 0x3F3, size: 0x8, addend: 0x0, symName: _free_cmd_buff, symObjAddr: 0xDF8, symBinAddr: 0x100003CF8, symSize: 0xB8 }
+...
