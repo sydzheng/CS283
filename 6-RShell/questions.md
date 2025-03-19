@@ -12,8 +12,8 @@ _Stateful protocols remember past interactions between client and server and can
 
 4. Our lecture this week stated that UDP is "unreliable". If that is the case, why would we ever use it?
 
-_answer here_
+_There are certain applications that benefit more from UDP's non-guarantee of packet deliveries or order. Although UDP does not provide these guarantees, internet applications such as YouTube benefit from unreliable packet delivery. If one packet gets dropped while using an application, it will just move on instead of trying to repair this one small mistake._
 
 5. What interface/abstraction is provided by the operating system to enable applications to use network communications?
 
-_answer here_
+_Operating systems provides Application Programming Interfaces (APIs)._
